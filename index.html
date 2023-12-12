@@ -1,1 +1,163 @@
-.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Куликов Филипп" />
+  <link rel="stylesheet" href="my.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Моё Портфолио</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=suMQP1_dz0XbgWSPThzk89urvNePk_uZ7m3Ssx_k3D8ozigOZD7tkATo3xw4GqjHZeAiVefCZ5-HBIhwCwW2GTE5CvJ4fYaPxU5YeuYGBHmOKoz645Khs14DAgKIAg-CX9uj7Kw7u-K7NnhuxaDRza0WGc2XMqqcc6XQJtLNH-3uRhIBo83CkMa8fs5cKJ_Y-Pxu_EvHk9KJXV2OEyXgBcJs5pRNGYBKlraPzbZAJZXWebxtTATc-TzxXxZpcMRINXlWxqtamdVmGNq4rG6-og" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvNzcyNDM4OTQxNzkzOTEwODE0LzExODQxMzY0NDU4MjEyMDY1MzgvbXkuaHRtbD9leD02NThhZTAwMCZpcz02NTc4NmIwMCZobT0wMjgzMTRhNjJmYmIzYTg0NTg5MDIwNjczMzBkZjUxZTg1YzRiMTIwMTgxNTlhMDE3NWQ4NmIzYzdhMTUzYzdhJg"/></head>
+
+<body>
+<div class="main">
+<div><h1>Куликов Филипп Евгеньевич</h1></div>
+<div class="bottom">
+<div class="left"><img src="images/portrait.png" alt="Портрет меня" width="200px"></div>
+<div class="right">
+    <h2>О себе </h2>
+    <p> Я студент второго курса НИЯУ МИФИ, факультета ЛаПлаз и направления ПМИ.</p>
+    <p>В своём дальнейшем обучении я планирую прололжить развиваться в научном направлении и поступать в магистратуру.
+        Увлекаюсь техническими науками, музыкой и лингвистикой.
+    </p>
+     <a class="my_button"> Моя страница </a>
+
+    <h2> Дисциплины </h2>
+    Вот некоторые изученные мною курсы:
+    <table class="cources">
+      <thead>
+        <tr>
+          <th>
+            Название дисциплины
+          </th>
+          <th>
+            Форма промежуточного контроля
+          </th>
+          <th>
+            Семестр
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">
+            Обязательные дисциплины
+          </td>
+        </tr>
+        <tr>
+            <td>
+                Философия
+            </td>
+            <td>
+                Экзамен
+            </td>
+            <td>
+                Осень 2023
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Обыкновенные дифференциальные уравнения
+            </td>
+            <td>
+                Экзамен
+            </td>
+            <td>
+                Осень 2023
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Дискретная математика
+            </td>
+            <td>
+            Зачёт
+            </td>
+            <td>
+                Осень 2023
+            </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td colspan="3">
+            Дисциплины по выбору
+          </td>
+        </tr>
+        <tr>
+            <td>
+                Применение лазеров в промышленности
+            </td>
+            <td>
+                Зачёт
+            </td>
+            <td>
+                Весна 2023
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Основы социолингвистики
+            </td>
+            <td>
+                Зачёт
+            </td>
+            <td>
+                Осень 2023
+            </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>
+        Свяжитесь со мной
+    </h2>
+    <form>
+        <div>
+            <label for="username">Ваше имя:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="pwd">Ваш адрес электронной почты:</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        <div>
+            <label for="big_body">Сообщение для меня:</label>
+            <textarea id="big_body" name="body" rows="4"></textarea> 
+        </div>
+        <div>
+            <label for="mess_type">Тип обращения:</label>
+            <select name="mess_type" id="mess_type">
+                <option value="Suggestion">Предложение</option>
+                <option value="Idea">Идея</option>
+            </select> 
+        </div>
+        <div>
+            <label for="like">Как тебе сайт?:</label>
+            <input type="range" id="like" name="like" min="0" max="50">
+        </div>
+        Посетишь сайт снова?
+        <div>
+            <input type="radio" id="option01" name="ret_site" value="Да">
+            <label for="day01">Конечно, да</label>
+          </div>
+          <div>
+            <input type="radio" id="option02" name="ret_site" value="Мб">
+            <label for="day02">Возможно</label>
+          </div>
+          <div>
+            <input type="radio" id="option03" name="ret_site" value="Нет">
+            <label for="day03">Ни за что</label>
+          </div>
+          <span>
+          <input class="my_button" type="submit" value="Отправить сообщение"></span>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+<footer>
+    Работу выполнил Куликов Ф.Е.
+    <div>
+    <i>9 ноября 2023 года</i>
+    </div>
+</footer>
+</body>
+</html>
